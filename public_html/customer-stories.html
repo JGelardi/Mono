@@ -1,0 +1,360 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Our Customers - Mono</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A corporate Bootstrap theme by Medium Rare">
+    <style>
+      @keyframes hideLoader{0%{ width: 100%; height: 100%; }100%{ width: 0; height: 0; }  }  body > div.loader{ position: fixed; background: white; width: 100%; height: 100%; z-index: 1071; opacity: 0; transition: opacity .5s ease; overflow: hidden; pointer-events: none; display: flex; align-items: center; justify-content: center;}body:not(.loaded) > div.loader{ opacity: 1;}body:not(.loaded){ overflow: hidden;}  body.loaded > div.loader{animation: hideLoader .5s linear .5s forwards;  } /* Typing Animation */.loading-animation {width: 6px;height: 6px;border-radius: 50%;animation: typing 1s linear infinite alternate;position: relative;left: -12px;}@keyframes typing {0% {background-color: rgba(100,100,100, 1);box-shadow: 12px 0px 0px 0px rgba(100,100,100, 0.2),24px 0px 0px 0px rgba(100,100,100, 0.2);}25% {background-color: rgba(100,100,100, 0.4);box-shadow: 12px 0px 0px 0px rgba(100,100,100, 2),24px 0px 0px 0px rgba(100,100,100, 0.2);}75% {background-color: rgba(100,100,100, 0.4);box-shadow: 12px 0px 0px 0px rgba(100,100,100, 0.2),24px 0px 0px 0px rgba(100,100,100, 1);}}
+    </style>
+    <script type="text/javascript">
+      window.addEventListener("load", function () {    document.querySelector('body').classList.add('loaded');  });
+    </script>
+    <link href="css/theme.min.css" rel="stylesheet" type="text/css" media="all" />
+    <link rel="preload" as="font" href="fonts/Inter-UI-upright.var.woff2" type="font/woff2" crossorigin="anonymous">
+    <link rel="preload" as="font" href="fonts/Inter-UI.var.woff2" type="font/woff2" crossorigin="anonymous">
+  </head>
+
+  <body>
+    <div class="loader">
+      <div class="loading-animation"></div>
+    </div>
+
+    <div class="navbar-container ">
+      <nav class="navbar navbar-expand-lg navbar-light bg-primary-alt">
+        <div class="container">
+          <a class="navbar-brand fade-page" href="index.html">
+            <img src="img/logo-black.png" alt="Mono" class="w-25">
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+            <img class="icon navbar-toggler-open" src="img/icons/interface/menu.svg" alt="menu interface icon" data-inject-svg />
+            <img class="icon navbar-toggler-close" src="img/icons/interface/cross.svg" alt="cross interface icon" data-inject-svg />
+          </button>
+          <div class="collapse navbar-collapse justify-content-end">
+            <div class="py-2 py-lg-0">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a href="customer-stories.html" class="nav-link fade-page">Our Customers</a>
+                </li>
+                <li class="nav-item">
+                    <a href="about-company.html" class="nav-link fade-page">About Mono</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link fade-page">Contact Us</a>
+                </li>
+              </ul>
+            </div><a href="/sign-up.html" class="btn btn-primary ml-lg-3">Sign Up</a>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <section class="bg-primary-alt header-inner o-hidden">
+      <div class="container">
+        <div class="row my-3">
+          <div class="col">
+            <nav aria-label="breadcrumb">
+              <ol class="breadcrumb">
+                <li class="breadcrumb-item">
+                  <a href="index.html">Home</a>
+                </li>
+                <li class="breadcrumb-item">
+                  <a href="#">Pages</a>
+                </li>
+              </ol>
+            </nav>
+          </div>
+        </div>
+        <div class="row pt-5 py-5 text-center justify-content-center align-items-center layer-2">
+          <div class="col-xl-8 col-lg-10">
+            <h1 class="display-4">Customer Stories</h1>
+            <p class="lead mb-0">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa.</p>
+          </div>
+        </div>
+      </div>
+      <div class="decoration top right scale-2 d-none d-lg-block" data-jarallax-element="-200">
+        <img class="bg-primary" src="img/decorations/deco-blob-2.svg" alt="deco-blob-2 decoration" data-inject-svg />
+      </div>
+    </section>
+    <section class="pb-0 pt-4 bg-primary-alt mb-lg-n7">
+      <div class="container">
+        <div class="row">
+          <div class="col layer-1">
+            <a href="#" class="card card-article-wide flex-md-row no-gutters hover-shadow-3d">
+              <div class="col-md-5 col-lg-6">
+                <img src="https://images.unsplash.com/photo-1525130413817-d45c1d127c42?ixlib=rb-0.3.5&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;s=22b665e08fd207619e91753d4f2236b3&amp;auto=format&amp;fit=crop&amp;w=2100&amp;q=80" alt="Image" class="card-img-top">
+              </div>
+              <div class="card-body d-flex flex-column justify-content-between col-auto p-4 p-lg-5">
+                <div>
+                  <img src="img/logos/sqm.png" alt="Logo" class="icon icon-lg mb-4">
+                  <div class="h3">See how SQM achieved higher profits by keeping track of their taxes with Mono</div>
+                </div>
+                <p class="lead mb-0 text-primary font-weight-bold">Read Story</p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="divider layer-0">
+        <img src="img/dividers/divider-2.svg" alt="graphical divider" data-inject-svg />
+      </div>
+    </section>
+    <section class="pt-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="card">
+              <a href="#">
+                <img src="img/inner-8.jpg" alt="Image" class="card-img-top">
+              </a>
+              <div class="card-body align-items-start">
+                <div class="mb-3">
+                  <img class="icon icon-md" src="img/logos/ferrovias.png" alt="Icon">
+                </div>
+                <p>
+                  Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.
+                </p>
+                <a href="#">Read Story</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
+            <div class="card">
+              <a href="#">
+                <img src="img/article-3.jpg" alt="Image" class="card-img-top">
+              </a>
+              <div class="card-body align-items-start">
+                <div class="mb-3">
+                  <img class="icon icon-md" src="img/logos/corpesca.png" alt="Icon">
+                </div>
+                <p>
+                  Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.
+                </p>
+                <a href="#">Read Story</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="300">
+            <div class="card">
+              <a href="#">
+                <img src="img/inner-7.jpg" alt="Image" class="card-img-top">
+              </a>
+              <div class="card-body align-items-start">
+                <div class="mb-3">
+                  <img class="icon icon-md" src="img/logos/penta.png" alt="Icon">
+                </div>
+                <p>
+                  Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.
+                </p>
+                <a href="#">Read Story</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="pb-4 bg-primary-3 text-light" id="footer">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col">
+            <div class="card card-body border-0 o-hidden mb-0 bg-primary text-light">
+              <div class="position-relative d-flex flex-column flex-md-row justify-content-between align-items-center">
+                <div class="h3 text-center mb-md-0">Start building beautiful websites</div>
+                <a href="https://themes.getbootstrap.com/product/leap-multipurpose-bootstrap-theme/" class="btn btn-lg btn-white">
+      Purchase Now
+    </a>
+              </div>
+              <div class="decoration layer-0">
+                <img class="bg-primary-2" src="img/decorations/deco-blob-1.svg" alt="deco-blob-1 decoration" data-inject-svg />
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <div class="row mb-5">
+          <div class="col-6 col-lg-3 col-xl-2">
+            <h5>Navigate</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item">
+                <a href="#" class="nav-link">Demos</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Pages</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Elements</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-6 col-lg">
+            <h5>Contact</h5>
+            <ul class="list-unstyled">
+              <li class="mb-3 d-flex">
+                <img class="icon" src="img/icons/theme/map/marker-1.svg" alt="marker-1 icon" data-inject-svg />
+                <div class="ml-3">
+                  <span>348 Greenpoint Avenue
+                    <br />Brooklyn, NY</span>
+                </div>
+              </li>
+              <li class="mb-3 d-flex">
+                <img class="icon" src="img/icons/theme/communication/call-1.svg" alt="call-1 icon" data-inject-svg />
+                <div class="ml-3">
+                  <span>+61 3928 3324</span>
+                  <span class="d-block text-muted text-small">Mon - Fri 9am - 5pm</span>
+                </div>
+              </li>
+              <li class="mb-3 d-flex">
+                <img class="icon" src="img/icons/theme/communication/mail.svg" alt="mail icon" data-inject-svg />
+                <div class="ml-3">
+                  <a href="#">hello@company.io</a>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-5 col-xl-4 mt-3 mt-lg-0">
+            <h5>Subscribe</h5>
+            <p>The latest Leap news, articles, and resources, sent straight to your inbox every month.</p>
+            <form action="https://mailform.mediumra.re/leap/mailchimp.php" data-form-email novalidate>
+              <div class="form-row">
+                <div class="col-12">
+                  <input type="email" class="form-control mb-2" placeholder="Email Address" name="email" required>
+                </div>
+                <div class="col-12">
+                  <div class="d-none alert alert-success" role="alert" data-success-message>
+                    Thanks, a member of our team will be in touch shortly.
+                  </div>
+                  <div class="d-none alert alert-danger" role="alert" data-error-message>
+                    Please fill all fields correctly.
+                  </div>
+                  <div data-recaptcha data-sitekey="6Lemz4gUAAAAAElq4ZHFBzI7j8QUiYMn9I0mzQWG" data-size="invisible" data-badge="bottomleft">
+                  </div>
+                  <button type="submit" class="btn btn-primary btn-loading btn-block" data-loading-text="Sending">
+                    <img class="icon" src="img/icons/theme/code/loading.svg" alt="loading icon" data-inject-svg />
+                    <span>Subscribe</span>
+                  </button>
+                </div>
+              </div>
+            </form>
+            <small class="text-muted form-text">We’ll never share your details. See our <a href="#">Privacy Policy</a>
+            </small>
+
+          </div>
+        </div>
+        <div class="row justify-content-center mb-2">
+          <div class="col-auto">
+            <ul class="nav">
+              <li class="nav-item">
+                <a href="#" class="nav-link">
+                  <img class="icon undefined" src="img/icons/social/instagram.svg" alt="instagram social icon" data-inject-svg />
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">
+                  <img class="icon undefined" src="img/icons/social/twitter.svg" alt="twitter social icon" data-inject-svg />
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">
+                  <img class="icon undefined" src="img/icons/social/youtube.svg" alt="youtube social icon" data-inject-svg />
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">
+                  <img class="icon undefined" src="img/icons/social/medium.svg" alt="medium social icon" data-inject-svg />
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">
+                  <img class="icon undefined" src="img/icons/social/facebook.svg" alt="facebook social icon" data-inject-svg />
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col col-md-auto text-center">
+            <small class="text-muted">&copy;2019 This page is protected by reCAPTCHA and is subject to the Google <a href="https://www.google.com/policies/privacy/">Privacy Policy</a> and <a href="https://policies.google.com/terms">Terms of Service.</a>
+            </small>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Required vendor scripts (Do not remove) -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+
+    <!-- 
+             This appears in the demo only.  This script ensures our demo countdowns are always showing a date in the future 
+             by altering the date before the countdown is initialized 
+        -->
+    <script type="text/javascript">
+      (function($){
+            var now             = new Date;
+            var day             = 864e5;
+            var weeksToAdd      = 2;
+            var tenWeeksFromNow = new Date(+now + day * 7 * weeksToAdd).toISOString().slice(0,10).replace(/\-/g, 'index.html');
+            $('[data-countdown-date].add-countdown-time').attr('data-countdown-date', tenWeeksFromNow);
+          })(jQuery);
+    </script>
+
+    <!-- Optional Vendor Scripts (Remove the plugin script here and comment initializer script out of index.js if site does not use that feature) -->
+
+    <!-- AOS (Animate On Scroll - animates elements into view while scrolling down) -->
+    <script type="text/javascript" src="js/aos.js"></script>
+    <!-- Clipboard (copies content from browser into OS clipboard) -->
+    <script type="text/javascript" src="js/clipboard.js"></script>
+    <!-- Fancybox (handles image and video lightbox and galleries) -->
+    <script type="text/javascript" src="js/jquery.fancybox.min.js"></script>
+    <!-- Flatpickr (calendar/date/time picker UI) -->
+    <script type="text/javascript" src="js/flatpickr.min.js"></script>
+    <!-- Flickity (handles touch enabled carousels and sliders) -->
+    <script type="text/javascript" src="js/flickity.pkgd.min.js"></script>
+    <!-- Ion rangeSlider (flexible and pretty range slider elements) -->
+    <script type="text/javascript" src="js/ion.rangeSlider.min.js"></script>
+    <!-- Isotope (masonry layouts and filtering) -->
+    <script type="text/javascript" src="js/isotope.pkgd.min.js"></script>
+    <!-- jarallax (parallax effect and video backgrounds) -->
+    <script type="text/javascript" src="js/jarallax.min.js"></script>
+    <script type="text/javascript" src="js/jarallax-video.min.js"></script>
+    <script type="text/javascript" src="js/jarallax-element.min.js"></script>
+    <!-- jQuery Countdown (displays countdown text to a specified date) -->
+    <script type="text/javascript" src="js/jquery.countdown.min.js"></script>
+    <!-- jQuery smartWizard facilitates steppable wizard content -->
+    <script type="text/javascript" src="js/jquery.smartWizard.min.js"></script>
+    <!-- Plyr (unified player for Video, Audio, Vimeo and Youtube) -->
+    <script type="text/javascript" src="js/plyr.polyfilled.min.js"></script>
+    <!-- Prism (displays formatted code boxes) -->
+    <script type="text/javascript" src="js/prism.js"></script>
+    <!-- ScrollMonitor (manages events for elements scrolling in and out of view) -->
+    <script type="text/javascript" src="js/scrollMonitor.js"></script>
+    <!-- Smooth scroll (animation to links in-page)-->
+    <script type="text/javascript" src="js/smooth-scroll.polyfills.min.js"></script>
+    <!-- SVGInjector (replaces img tags with SVG code to allow easy inclusion of SVGs with the benefit of inheriting colors and styles)-->
+    <script type="text/javascript" src="js/svg-injector.umd.production.js"></script>
+    <!-- TwitterFetcher (displays a feed of tweets from a specified account)-->
+    <script type="text/javascript" src="js/twitterFetcher_min.js"></script>
+    <!-- Typed text (animated typing effect)-->
+    <script type="text/javascript" src="js/typed.min.js"></script>
+    <!-- Required theme scripts (Do not remove) -->
+    <script type="text/javascript" src="js/theme.js"></script>
+
+    <script type="text/javascript">
+      // This script appears only in the demo - it disables forms with no action attribute to prevent 
+      // navigating away from the page.
+      jQuery("form:not([action])").on('submit', function(){return false;});
+    </script>
+
+  </body>
+
+
+<!-- Mirrored from leap.mediumra.re/customer-stories.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 07 Apr 2020 09:45:25 GMT -->
+</html>
