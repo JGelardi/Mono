@@ -20,7 +20,7 @@ $('input[type="file"]').change(function(e){
         $('#ciiu').val("4649").addClass("is-valid");
         $('#file-label').text(fileName);
     } else {
-        alert("Wrong file!");
+        alert("The file you have uploaded is unrecognized. Please upload 'Certificate.pdf'!");
     }
 });
 
