@@ -19251,6 +19251,7 @@ article table tr {
 }
 
 .step-circles {
+    filter: drop-shadow(1px 2px 4px rgba(0, 0, 0, 0.4));
     border-bottom: none
 }
 
@@ -19267,20 +19268,21 @@ article table tr {
     align-items: center;
     justify-content: center;
     opacity: 1!important;
-    transition: background-color .2s ease
+    transition: all .2s ease
 }
 
 .step-circles .nav-link:hover {
-    background: #d1dbff;
+    background: #d1dbff
 }
 
 .step-circles .nav-item {
+    transition: all .2s ease;
     margin: 0 1.5rem;
     opacity: .5
 }
 
 .step-circles .nav-item.active .nav-link {
-    background: white;
+    background: white
 }
 
 .step-circles .nav-item.active,
