@@ -25,11 +25,11 @@ $('input[type="file"]').change(function(e){
 });
 
 $('#add-shareholder').click(function(){
-    var html = $('<div class="shareholder"><div class="form-group"><input type="text" name="name" placeholder="Name" class="form-control"></div><div class="form-row"><div class="form-group col-md-6"><input type="text" name="id" placeholder="ID No." class="form-control"></div><div class="form-group col-md-6"><input type="text" name="percent" placeholder="Percentage" class="form-control"></div></div></div>');
+    var html = $('<div class="shareholder"> <div class="form-group"> <input type="text" name="name" placeholder="Name" class="form-control"> </div> <div class="form-row"> <div class="form-group col-md-6"> <input type="text" name="id" placeholder="ID No." class="form-control"> </div> <div class="form-group col-md-6"> <div class="input-group"> <div class="input-group-prepend"> <span class="input-group-text">%</span> </div> <input type="number" max="100" min="5" placeholder="Ownership" class="form-control"> </div> </div> </div> </div>');
     $('.shareholders').append(html);
 });
 
 $('#add-other-income').click(function(){
-    var html = $('<div class="other-income"><div class="form-row"><div class="form-group col-md-6"><input type="text" name="type" placeholder="Type of Income" class="form-control"></div><div class="form-group col-md-6"><input type="number" name="amount" placeholder="Amount" class="form-control"></div></div></div>');
+    var html = $('<div class="other-income"> <div class="form-row"> <div class="form-group col-md-6"> <input type="text" name="type" placeholder="Type of Income" class="form-control"> </div> <div class="form-group col-md-6"> <div class="input-group"> <div class="input-group-prepend"> <span class="input-group-text">$</span> </div> <input type="number" min="0" class="form-control"> </div> </div> </div> </div>');
     $('.other-incomes').append(html);
 });
